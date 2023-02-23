@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //ES-5 way the write the class 
+        function StudentDetails(id, name, collage, address, desiganation) {
+            this.id = id;
+            this.name = name;
+            this.collage = collage;
+            this.address = address;
+            this.desiganation = desiganation;
+        }
+        let studentDetails1 = new StudentDetails(1, 'Anil Kumar Prajapati', 'Veer bahadur singh purvanchal university jaunpiur Uttar Pradesh', 'varansi', 'hyderabad');
+        let studentDetails2 = new StudentDetails(2, 'Rahul Kumar Prajapati', 'Veer bahadur singh purvanchal university jaunpiur Uttar Pradesh', 'jaunpur', 'Delhi');
+        let studentDetails3 = new StudentDetails(3, 'Reens Kumar Prajapati', 'Veer bahadur singh purvanchal university jaunpiur Uttar Pradesh', 'Agara', 'mumbai');
+        console.log(studentDetails1)
+        console.log(studentDetails2)
+        console.log(studentDetails3)
+    </script>
+</body>
+
+</html>
